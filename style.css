@@ -4,7 +4,6 @@ body, html {
     color: #260E5A;
     font-family: "Multi", sans-serif;
     text-align: center;
-    height: 100%;
 }
 
 nav {
@@ -34,10 +33,7 @@ img {
     font-size: 16px;
 }
 
-section {
-    height: 100%;
-}
-
 #achieve {
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
 }
