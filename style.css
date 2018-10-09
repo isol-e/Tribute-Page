@@ -1,14 +1,18 @@
 
 body, html {
-    background: linear-gradient(30deg, #7A50A6, #e6ccf2);
+    background: linear-gradient(35deg, #7A50A6, #f0e3f4);
     color: #260E5A;
-    font-family: "Multi", sans-serif;
+    font-family: "Josefin Sans", sans-serif;
     text-align: center;
+    text-decoration: none;
 }
 
 nav {
     width: 100%;
     justify-content: flex-start;
+    display: flex;
+    flex-direction: row;
+    background: #DCCCA8;
 }
 
 nav ul {
@@ -29,11 +33,11 @@ img {
 }
 
 #tribute-info {
-    width: 60%;
+    width: 500px;
     font-size: 16px;
 }
 
 #achieve {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
