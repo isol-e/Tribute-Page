@@ -1,0 +1,18 @@
+
+body {
+    background: linear-gradient(60deg, #7A50A6, #9F74C3);
+    color: #260E5A;
+    font-family: "Multi", sans-serif;
+    text-align: center;
+    text-shadow: 1px 1px #391873;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
+
+section {
+    height: 100%;
+}
